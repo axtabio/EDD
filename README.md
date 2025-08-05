@@ -1,8 +1,8 @@
 # EDD
 
-The official code for Expandable and Differentiable Dual Memory(EDD)
+The official code for Expandable and Differentiable Dual Memories with Orthogonal Regularization (EDD)
 
-
+This code require Mammoth - A PyTorch Framework for Benchmarking Continual Learning package and enviroments
 
 
 # CIFAR10
