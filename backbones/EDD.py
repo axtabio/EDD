@@ -343,7 +343,7 @@ class MemResNet(MammothBackbone):
                 continue
 
 @register_backbone("EDD")
-def MemResNetBlock_flexible_pruning(num_classes: int, embedDim: int = 100, nf: int = 64,use_memory_layers="1, 2", concat='memory'
+def edd(num_classes: int, embedDim: int = 100, nf: int = 64,use_memory_layers="1, 2", concat='memory'
 ):
     return MemResNet(
         BasicBlock, [2, 2, 2, 2], num_classes, nf, embedDim,
