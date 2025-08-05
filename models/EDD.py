@@ -65,7 +65,7 @@ class EDD(ContinualModel):
                              self.dataset.N_TASKS).to(self.device)
         
         # Log directory
-        self.run_dir = f"./memkd_log/{datetime.now():%Y%m%d_%H%M%S}"
+        self.run_dir = f"./edd/{datetime.now():%Y%m%d_%H%M%S}"
         os.makedirs(self.run_dir, exist_ok=True)
 
         # Debug verification flag (only for memory 2)
