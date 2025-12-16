@@ -61,12 +61,15 @@ python main.py --model EDD --dataset seq-cifar10 \
 
 ```
 ### 📝 Citation
+
+```bibtex
 @inproceedings{moon2026edd,
   title={Expandable and Differentiable Dual Memories with Orthogonal Regularization for Exemplar-free Continual Learning},
   author={Moon, Hyung-Jun and Cho, Sung-Bae},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2026}
 }
+```
 
 ### 🙏 Acknowledgements
 This repository is based on Mammoth. We thank the authors for their excellent framework.
