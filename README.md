@@ -3,7 +3,6 @@
 [![AAAI 2026](https://img.shields.io/badge/AAAI-2026-blue.svg)](https://arxiv.org/abs/2511.09871)
 [![arXiv](https://img.shields.io/badge/arXiv-2511.09871-b31b1b.svg)](https://arxiv.org/abs/2511.09871)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/expandable-and-differentiable-dual-memories/class-incremental-learning-on-cifar-100)](https://paperswithcode.com)
 
 > **Official PyTorch Implementation** for the paper:  
 > **"Expandable and Differentiable Dual Memories with Orthogonal Regularization for Exemplar-free Continual Learning"** > Accepted to **AAAI 2026**.
@@ -23,7 +22,7 @@ Yonsei University, Seoul, Korea
 ## 📖 Abstract
 
 <p align="center">
-  <img src="assets/architecture.png" width="800" title="EDD Architecture">
+  <img src="figure.pdf" width="800" title="EDD Architecture">
 </p>
 
 Continual learning (CL) aims to learn a sequence of tasks while maintaining performance on previous tasks, but catastrophic forgetting remains a fundamental challenge. To address this, we propose a novel **Expandable and Differentiable Dual Memory (EDD)** method. 
