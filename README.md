@@ -7,7 +7,7 @@
 > **Official PyTorch Implementation** for the paper:  
 > **"Expandable and Differentiable Dual Memories with Orthogonal Regularization for Exemplar-free Continual Learning"** > Accepted to **AAAI 2026**.
 
-[**Hyung-Jun Moon**](https://github.com/axtabio) and [**Sung-Bae Cho**](http://sclab.yonsei.ac.kr/)  
+[**Hyung-Jun Moon**](https://scholar.google.co.kr/citations?user=VBtt5bEAAAAJ&hl=ko) and [**Sung-Bae Cho**](https://scholar.google.co.kr/citations?user=px5LGgMAAAAJ&hl=ko)  
 Yonsei University, Seoul, Korea
 
 ---
@@ -52,3 +52,28 @@ cd EDD
 
 # Install dependencies (Example)
 pip install -r requirements.txt
+
+# Train EDD on the Sequential CIFAR-10 dataset:
+python main.py --model EDD --dataset seq-cifar10 \
+    --backbone edd --embedDim 1000 \
+    --lambda_memory 20.0 --lambda_orthogonal 10.0 --memory_pruning_ratio 0.15 \
+    --ba_lr 0.0001 --ba_epochs 20 --lr 0.001
+
+
+@inproceedings{moon2026edd,
+  title={Expandable and Differentiable Dual Memories with Orthogonal Regularization for Exemplar-free Continual Learning},
+  author={Moon, Hyung-Jun and Cho, Sung-Bae},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2026}
+}
+
+## 🙏 Acknowledgements
+This repository is based on Mammoth. We thank the authors for their excellent framework.
+
+## 📧 Contact
+If you have any questions, please feel free to contact us via email:
+
+Hyung-Jun Moon: axtabio@yonsei.ac.kr
+
+
+
