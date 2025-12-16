@@ -59,7 +59,8 @@ python main.py --model EDD --dataset seq-cifar10 \
     --lambda_memory 20.0 --lambda_orthogonal 10.0 --memory_pruning_ratio 0.15 \
     --ba_lr 0.0001 --ba_epochs 20 --lr 0.001
 
-
+```
+### 📝 Citation
 @inproceedings{moon2026edd,
   title={Expandable and Differentiable Dual Memories with Orthogonal Regularization for Exemplar-free Continual Learning},
   author={Moon, Hyung-Jun and Cho, Sung-Bae},
@@ -67,10 +68,10 @@ python main.py --model EDD --dataset seq-cifar10 \
   year={2026}
 }
 
-## 🙏 Acknowledgements
+### 🙏 Acknowledgements
 This repository is based on Mammoth. We thank the authors for their excellent framework.
 
-## 📧 Contact
+### 📧 Contact
 If you have any questions, please feel free to contact us via email:
 
 Hyung-Jun Moon: axtabio@yonsei.ac.kr
