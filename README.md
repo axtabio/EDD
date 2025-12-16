@@ -22,7 +22,7 @@ Yonsei University, Seoul, Korea
 ## 📖 Abstract
 
 <p align="center">
-  <img src="figure.pdf" width="800" title="EDD Architecture">
+  <img src="architecture.png" width="900" title="EDD Architecture">
 </p>
 
 Continual learning (CL) aims to learn a sequence of tasks while maintaining performance on previous tasks, but catastrophic forgetting remains a fundamental challenge. To address this, we propose a novel **Expandable and Differentiable Dual Memory (EDD)** method. 
