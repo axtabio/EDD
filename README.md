@@ -13,8 +13,8 @@ Yonsei University, Seoul, Korea
 ---
 
 ## 📢 News
-* **[2025.12]** 🎉 This paper has been accepted to **AAAI 2026**!
 * **[2025.11]** The preprint is available on [arXiv](https://arxiv.org/abs/2511.09871).
+* **[2025.12]** 🎉 This paper has been accepted to **AAAI 2026**!
 * **[2025.11]** Code release.
 
 ---
